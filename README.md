@@ -9,7 +9,7 @@ Read more about Mina Protocol at [minaprotocol.com](https://minaprotocol.com/).
 ### 1. Download repository
 
 ```
-$ git clone https://github.com/stoll/mina-cli
+$ git clone https://github.com/stoll/mina-cli my-folder
 ```
 
 ### 2. Install dependencies
