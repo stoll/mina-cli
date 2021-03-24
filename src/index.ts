@@ -1,8 +1,8 @@
-import Prompts, {PromptObject} from "prompts"
-import Commands from "./commands";
+import Prompts, { PromptObject } from "prompts"
+import Commands from "./commands"
 
 (async () => {
-	const response = await Prompts({
+	await Prompts({
 		type: 'select',
 		name: 'command',
 		message: 'Which command do you want to execute?',
@@ -21,7 +21,7 @@ import Commands from "./commands";
 					console.log("Public key: " + publicKey)
 					console.log("Private key: " + privateKey)
 
-					break;
+					break
 			}
 		},
 		onCancel: (response: PromptObject) => {
